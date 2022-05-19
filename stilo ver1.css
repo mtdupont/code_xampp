@@ -1,0 +1,25 @@
+body {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.cls-data {
+    background: rgb(72, 141, 231);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.cls-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(1,minmax(min-content,max-content));
+    grid-auto-rows: auto;
+}
+
+.cls-grid .cls-item {
+    padding: 10px;
+    border: 2px solid #26a;
+    margin: 3px;
+    background: #fff;
+    color: black;
+}

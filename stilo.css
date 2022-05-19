@@ -1,0 +1,53 @@
+body {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.cls-data {
+    background: rgb(72, 141, 231);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.cls-grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4,minmax(min-content,max-content));
+    grid-auto-rows: auto;
+}
+
+.cls-grid .cls-item-1 {
+    grid-column: 1;
+    padding: 10px;
+    border: 2px solid #26a;
+    margin: 3px;
+    background: #fff;
+    color: black;
+}
+.cls-grid .cls-item-2 {
+    grid-column: 2;
+    padding: 10px;
+    border: 2px solid #26a;
+    margin: 3px;
+    background: #fff;
+    color: black;
+}
+.cls-grid .cls-item-3 {
+    grid-column: 3;
+    padding: 10px;
+    border: 2px solid #26a;
+    margin: 3px;
+    background: #fff;
+    color: black;
+}
+.cls-grid .cls-item-4 {
+    grid-column: 4;
+    padding: 10px;
+    border: 2px solid #26a;
+    margin: 3px;
+    background: #fff;
+    color: black;
+}
+p {
+    color: red;
+}
